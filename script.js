@@ -1,4 +1,3 @@
-var index=0
 function Salvar(novaLista){ //salvar nova lista de frases
     localStorage.setItem('listaDeFrases',JSON.stringify(novaLista))
 }
@@ -13,16 +12,14 @@ function Verificar(){ //verificar se é o primeiro acesso do usuario
 }
 function Mudar(){
     lista=Ler()
+    let index;
     tamanho=lista.length
     if(tamanho==0){
         document.querySelector('.msg').innerText='Acabou suas mensagens únicas'
         return
     }
-    console.log(index)
-    indexAntigo=index
-    index=(Math.floor(Math.random()*(tamanho))+1)
-    console.log(index)
-    document.querySelector('.msg').innerText=lista[index-1]
+    index=(Math.floor(Math.random()*(tamanho)))
+    document.querySelector('.msg').innerText=lista[index]
     lista.splice(index-1,1)
     Salvar(lista)
 }
