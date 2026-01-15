@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    padding:0px;
 }
 .matriz{
     margin-top: 5vh;
@@ -10,17 +11,16 @@
     align-items: center;
     height:80vh;
 }
-.button{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    align-items: center;
-}
-button{
-    padding:3vh;
-    border-radius: 20%;
-}
 img{
-    width: 200px;
-    height: 200px;
+    position:absolute;
+    top:100px;
+    left:30vw;
+    width: 40vw;
+    height: 40vw;
+    padding:0px;
+}
+.text{
+    position:relative;
+    align-items: center;
+    height:200px;
 }
