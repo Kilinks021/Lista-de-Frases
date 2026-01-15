@@ -35,11 +35,13 @@ img{
 }
 .msg{
     height:20vh;
+    display:none;
 }
 .aviso{
     height:20vh;
 
 }
+
 
 
 
