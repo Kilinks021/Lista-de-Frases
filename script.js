@@ -14,8 +14,10 @@ function Mudar(){
     lista=Ler()
     let index;
     tamanho=lista.length
-    document.querySelector('img').classList.add('l')
-    document.querySelector('img').classList.remove('d')
+    if(document.querySelector('img').classList[0]=='d'){
+        document.querySelector('img').classList.add('l')
+        document.querySelector('img').classList.remove('d')
+    }
     if(tamanho==0){
         document.querySelector('.msg').innerText='Acabou suas mensagens únicas'
         return
@@ -27,3 +29,4 @@ function Mudar(){
 }
 Verificar()
 document.querySelector('img').addEventListener('click',Mudar)
+
