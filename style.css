@@ -16,11 +16,10 @@ body{
 }
 img{
     position:absolute;
-    top:25vh;
+    top:40vh;
     left:30vw;
-    width: 50vw;
-    height: 50vw;
-    padding:0px;
+    width: 60vw;
+    height: 60vw;
 }
 .texto{
     height:20vh;
@@ -30,4 +29,5 @@ img{
 }
 .aviso{
     height:20vh;
+
 }
