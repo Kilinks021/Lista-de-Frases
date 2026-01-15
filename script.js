@@ -14,14 +14,13 @@ function Mudar(){
     lista=Ler()
     let index;
     tamanho=lista.length
+    document.querySelector('img').classList.add('l')
+    document.querySelector('img').classList.remove('d')
     if(tamanho==0){
         document.querySelector('.msg').innerText='Acabou suas mensagens únicas'
         return
     }
     index=(Math.floor(Math.random()*(tamanho)))
-    document.get
-    document.querySelector('img').classList.add('l')
-    document.querySelector('img').classList.remove('d')
     document.querySelector('.msg').innerText=lista[index]
     lista.splice(index-1,1)
     Salvar(lista)
