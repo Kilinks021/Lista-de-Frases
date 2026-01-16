@@ -36,16 +36,20 @@ img{
     height:20vh;
     font-size:8vw;
     text-align:center;
+    color:yellow;
 }
 .msg{
     height:20vh;
     visibility:hidden;
     text-align:center;
     width:80vw;
+    color:yellow;
 }
 .aviso{
     height:20vh;
+    color:yellow;
 }
+
 
 
 
