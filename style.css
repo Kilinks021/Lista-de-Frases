@@ -34,15 +34,17 @@ img{
 .texto{
     height:20vh;
     font-size:5vw;
+    text-align:center;
 }
 .msg{
     height:20vh;
     visibility:hidden;
+    text-align:center;
 }
 .aviso{
     height:20vh;
-
 }
+
 
 
 
