@@ -20,7 +20,7 @@ function Mudar(){
         document.querySelector('.msg').style.visibility='visible'
     }
     if(tamanho==0){
-        document.querySelector('.msg').innerText='Acabou suas mensagens únicas'
+        document.querySelector('.msg').innerText='Acabaram suas mensagens únicas'
         return
     }
     index=(Math.floor(Math.random()*(tamanho)))
@@ -30,6 +30,7 @@ function Mudar(){
 }
 Verificar()
 document.querySelector('img').addEventListener('click',Mudar)
+
 
 
 
