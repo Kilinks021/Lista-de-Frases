@@ -6,7 +6,7 @@ function Ler(){ //ler a lista de frases
 }
 function Verificar(){ //verificar se é o primeiro acesso do usuario
     if(localStorage.getItem('listaDeFrases')==0 || localStorage.getItem('listaDeFrases')==undefined){
-        const listaDeFrases = ["O ITA cresce com você.","Você pertence ao futuro da engenharia.","Você pode fazer história.","Você faz parte do amanhã.","Você constrói seu próprio caminho.","Você inspira pelo exemplo.","Você tem muito a conquistar.","Você ajuda a construir isso.","Você merece igualdade.","Você merece ser ouvida.","Você é resiliente.","Você é persistente.","Aprender é um processo.","Você se adapta e cresce.","Você não desistiu — e isso importa.","Resistir também é avançar.","Você está em constante evolução.","Crescer envolve dificuldade.","Nem todo dia será fácil — e tudo bem.","Tecnologia se constrói em conjunto.","Ideias diferentes criam soluções melhores.","Você participa da construção do futuro.","Sistemas complexos precisam de equilíbrio.","Engenharia precisa de múltiplas perspectivas.","Você constrói soluções.","Sua capacidade não precisa ser provada todos os dias.","Você é parte da história do ITA.","Pertencer não é pedir permissão.","Seu espaço aqui é legítimo."];
+        const listaDeFrases = ["Pela janela, o céu foi vislumbrado","Porém, para chegar ao sonho, lutar era necessário","Lutar pelo céu longínquo parecia uma loucura","Mas só se vive uma vez","Missão dada é missão cumprida","O esforço imensurável foi recompensado","Fantasias se tornam realidade","Bixetes, agora fazem parte de mais uma família","Futuras engenheiras do ITA","Reciprocidade e irmandade lhes aguardam","Sejam bem-vindas a eterna T30"];
         Salvar(listaDeFrases)
     }
 }
@@ -30,6 +30,7 @@ function Mudar(){
 }
 Verificar()
 document.querySelector('img').addEventListener('click',Mudar)
+
 
 
 
