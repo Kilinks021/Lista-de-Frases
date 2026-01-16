@@ -4,6 +4,7 @@
 }
 body{
     position:relative;
+    background-image:url('./fundo.jpeg');
 }
 .matriz{
     margin-top: 5vh;
@@ -45,6 +46,7 @@ img{
 .aviso{
     height:20vh;
 }
+
 
 
 
