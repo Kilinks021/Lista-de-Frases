@@ -6,7 +6,7 @@ function Mudar(){
         document.querySelector('img').classList.remove('d')
         document.querySelector('.msg').style.visibility='visible'
     }
-    if(index==11){
+    if(index%12==11){
         document.querySelector('img').classList.add('d')
         document.querySelector('img').classList.remove('l')
         document.querySelector('.msg').style.visibility='hidden'
@@ -15,5 +15,6 @@ function Mudar(){
     index+=1
 }
 document.querySelector('img').addEventListener('click',Mudar)
+
 
 
